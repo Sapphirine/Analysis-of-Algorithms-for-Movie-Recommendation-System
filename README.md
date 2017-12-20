@@ -1,4 +1,4 @@
-Movie Recommendation System
+Analysis of Algorithms for Movie Recommendation System
 ---------------------------
 Group 201712-72
 Lillian Chik, Mun Shin (mc3549)
