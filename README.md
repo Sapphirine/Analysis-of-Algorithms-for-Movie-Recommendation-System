@@ -1,7 +1,6 @@
 Analysis of Algorithms for Movie Recommendation System
 ---------------------------
-Group 201712-72
-Lillian Chik, Mun Shin (mc3549)
+Group 201712-72; Team Member: Lillian Chik, Mun Shin (mc3549)
 
 How to use this project:
 The source code contains the four algorithms for predicting movie ratings: baseline predictor, nearest neighbors collaborative filtering, latent factor collaborative filtering and content-based linear predictor. Here are the steps to use this project.
@@ -28,17 +27,17 @@ _____________________________________________________________________
 
 1) User-basedCF_20M.py: Nearest Neighbors Collaborative Filtering
 
-Input K = number of top similar users to use for making predictions
-Input FILENAME = path to input file
+- Input K = number of top similar users to use for making predictions 
+- Input FILENAME = path to input file
 
 -----------------------------------------------------------------------
 
 2) Latent_Factor_20M.py: Latent Factor Collaborative Filtering 
 
-Input K = number of latent factors
-Input LR = learning rate for Stochastic Gradient Descent
-Input LAMBDA = regularization 
-Input EPOCHS = number of epochs for Stochastic Gradient
+- Input K = number of latent factors
+- Input LR = learning rate for Stochastic Gradient Descent
+- Input LAMBDA = regularization 
+- Input EPOCHS = number of epochs for Stochastic Gradient
 
 ------------------------------------------------------------------------
 
@@ -48,17 +47,17 @@ Use Apache Spark command $SPARK_HOME/bin/spark-submit --master "url of spark mas
 
 3) User-basedCF_Spark.py: Nearest Neighbors Collaborative Filtering Using Spark
 
-Input K = number of top similar users to use for making predictions
-Input FILENAME = path to input file
-Input MASTER = url of spark master node 
+- Input K = number of top similar users to use for making predictions
+- Input FILENAME = path to input file
+- Input MASTER = url of spark master node 
 
 ---------------------------------------------------------------------------
 4) Latent_Factor_Spark.py: Latent Factor Collaborative Filtering Using Spark
 
-Input K = number of latent factors
-Input LR = learning rate for Stochastic Gradient Descent
-Input LAMBDA = regularization
-Input EPOCH = number of epochs for Stochastic Gradient Descent
-Input FILENAME = path to input file
-Input MASTER = url of spark master node
+- Input K = number of latent factors
+- Input LR = learning rate for Stochastic Gradient Descent
+- Input LAMBDA = regularization
+- Input EPOCH = number of epochs for Stochastic Gradient Descent
+- Input FILENAME = path to input file
+- Input MASTER = url of spark master node
 
