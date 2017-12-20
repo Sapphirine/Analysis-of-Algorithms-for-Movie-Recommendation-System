@@ -42,7 +42,7 @@ Input EPOCHS = number of epochs for Stochastic Gradient
 
 ------------------------------------------------------------------------
 
-## YOu will need Apache Spark in order to run the following scripts
+## You will need Apache Spark in order to run the following scripts
 
 Use Apache Spark command $SPARK_HOME/bin/spark-submit --master "url of spark master node" to run the following scripts. 
 
